@@ -6,8 +6,10 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 import java.io.Console;
+import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
     private boolean danny_Click = false;
@@ -35,6 +37,13 @@ public class MainActivity extends AppCompatActivity {
     private ImageButton patrick_Btn;
     private ImageButton michael_Btn;
     private ImageButton loie_Btn;
+
+    private ImageView image;
+
+    private Integer[] imageArr = {R.drawable.danny, R.drawable.albert, R.drawable.briantan,
+            R.drawable.julie, R.drawable.jay, R.drawable.gerard,
+            R.drawable.bj, R.drawable.kevin, R.drawable.leo,
+            R.drawable.patrick, R.drawable.michael, R.drawable.loie};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -257,6 +266,12 @@ public class MainActivity extends AppCompatActivity {
                 loie_Click = !loie_Click;
             }
         });
+
+        // Sets image to random image
+        Random rand = new Random();
+        image = (ImageView) findViewById(R.id.image);
+        image.setImageResource(imageArr[rand.nextInt(12)]);
+
 
     }
 }
