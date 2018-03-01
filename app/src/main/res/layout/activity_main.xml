@@ -14,7 +14,8 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:orientation="horizontal">
 
         <ImageButton
@@ -24,16 +25,21 @@
             android:scaleType="fitCenter"
             android:src="@drawable/danny"/>
 
+
+
+
         <ImageButton
             android:id="@+id/albert"
-            android:layout_width="100dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="100dp"
             android:scaleType="fitCenter"
             android:src="@drawable/albert"/>
 
         <ImageButton
             android:id="@+id/briantan"
-            android:layout_width="100dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="100dp"
             android:scaleType="fitCenter"
             android:src="@drawable/briantan"/>
@@ -43,26 +49,30 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:orientation="horizontal">
 
         <ImageButton
             android:id="@+id/julie"
-            android:layout_width="100dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="100dp"
             android:scaleType="fitCenter"
             android:src="@drawable/julie"/>
 
         <ImageButton
             android:id="@+id/jay"
-            android:layout_width="100dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="100dp"
             android:scaleType="fitCenter"
             android:src="@drawable/jay"/>
 
         <ImageButton
             android:id="@+id/gerard"
-            android:layout_width="100dp"
+            android:layout_width="1dp"
+            android:layout_weight="1"
             android:layout_height="100dp"
             android:scaleType="fitCenter"
             android:src="@drawable/gerard"/>
@@ -70,26 +80,30 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:orientation="horizontal">
 
         <ImageButton
             android:id="@+id/bj"
-            android:layout_width="100dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="100dp"
             android:scaleType="fitCenter"
             android:src="@drawable/bj"/>
 
         <ImageButton
             android:id="@+id/kevin"
-            android:layout_width="100dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="100dp"
             android:scaleType="fitCenter"
             android:src="@drawable/kevin"/>
 
         <ImageButton
             android:id="@+id/leo"
-            android:layout_width="100dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="100dp"
             android:scaleType="fitCenter"
             android:src="@drawable/leo"/>
@@ -97,26 +111,30 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:orientation="horizontal">
 
         <ImageButton
             android:id="@+id/patrick"
-            android:layout_width="100dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="100dp"
             android:scaleType="fitCenter"
             android:src="@drawable/patrick"/>
 
         <ImageButton
             android:id="@+id/michael"
-            android:layout_width="100dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="100dp"
             android:scaleType="fitCenter"
             android:src="@drawable/michael"/>
 
         <ImageButton
             android:id="@+id/loie"
-            android:layout_width="100dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="100dp"
             android:scaleType="fitCenter"
             android:src="@drawable/loie"/>
@@ -125,7 +143,8 @@
     <ImageView
         android:id="@+id/image"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:src="@mipmap/ic_launcher"/>
 
 
